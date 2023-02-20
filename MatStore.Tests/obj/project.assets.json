@@ -1901,6 +1901,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "MatStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MatStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MatStore.Domain.dll": {}
+        }
       }
     }
   },
@@ -6761,12 +6771,18 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "MatStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MatStore.Domain/MatStore.Domain.csproj",
+      "msbuildProject": "../MatStore.Domain/MatStore.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
+      "MatStore.Domain >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "coverlet.collector >= 3.1.2"
     ]
@@ -6797,7 +6813,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mathe\\OneDrive - Grupo Marista\\Matheus\\Estudos\\Programação\\.NET\\Curso Balta\\MatStore\\MatStore.Domain\\MatStore.Domain.csproj": {
+              "projectPath": "C:\\Users\\mathe\\OneDrive - Grupo Marista\\Matheus\\Estudos\\Programação\\.NET\\Curso Balta\\MatStore\\MatStore.Domain\\MatStore.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -6843,7 +6863,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

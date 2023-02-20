@@ -1,0 +1,7 @@
+Usuário acessa o site
+Visualiza catálogo de produto
+Adiciona produtos ao carrinho
+Fecha o pedido
+Gera nota fiscal
+Separa o pedido para entrega
+Despacha o pedido
