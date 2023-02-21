@@ -7,6 +7,9 @@ namespace MatStore.Domain.StoreContext.Entities
             Product = product;
             Quantity = quantity;
             Price = Product.Price;
+
+            if (product.QuantityOnHand < quantity)
+                throw new Exception("Quantidade inválida");
         }
 
         public Product Product { get; private set; }

@@ -1,8 +1,9 @@
+using FluentValidator;
 using MatStore.Domain.StoreContext.Enums;
 
 namespace MatStore.Domain.StoreContext.Entities
 {
-    public class Delivery
+    public class Delivery : Notifiable
     {
         public Delivery(DateTime estimatedDeliveryDate) {
             CreateDate = DateTime.Now;

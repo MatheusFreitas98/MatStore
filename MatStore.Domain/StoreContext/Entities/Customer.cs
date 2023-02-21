@@ -1,8 +1,9 @@
+using FluentValidator;
 using MatStore.Domain.StoreContext.ValueObjects;
 
 namespace MatStore.Domain.StoreContext.Entities
 {
-    public class Customer
+    public class Customer : Notifiable
     {
         private readonly IList<Address> _addresses;
 

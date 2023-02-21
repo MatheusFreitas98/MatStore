@@ -1,8 +1,9 @@
+using FluentValidator;
 using MatStore.Domain.StoreContext.Enums;
 
 namespace MatStore.Domain.StoreContext.Entities
 {
-    public class Order
+    public class Order : Notifiable
     {
         private readonly IList<OrderItem> _items;
         private readonly IList<Delivery> _deliveries;
@@ -38,6 +39,8 @@ namespace MatStore.Domain.StoreContext.Entities
             CreateDate = DateTime.Now;
             Status = EOrderStatus.Created;
             Number = new Guid().ToString().Replace("-", "").Substring(0, 8).ToUpper();
+            if (_items.Count == 0)
+                AddNotification("Order", "Este pedido não possui itens");
         }
 
         public void Pay()

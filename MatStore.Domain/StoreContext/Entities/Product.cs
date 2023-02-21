@@ -1,6 +1,8 @@
+using FluentValidator;
+
 namespace MatStore.Domain.StoreContext.Entities
 {
-    public class Product
+    public class Product : Notifiable
     {
         public Product(int id, string title, string description, decimal price, decimal quantityOnHand, string image)
         {
