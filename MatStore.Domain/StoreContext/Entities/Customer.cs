@@ -4,28 +4,28 @@ namespace MatStore.Domain.StoreContext.Entities
 {
     public class Customer
     {
-        public Customer(Name fullName, Document document, string email, string phone)
+        private readonly IList<Address> _addresses;
+
+        public int Id { get; private set; }
+        public Name FullName { get; private set; }
+        public Document Document { get; private set; }
+        public Email Email { get; private set; }
+        public Phone Phone { get; private set; }
+        public IReadOnlyCollection<Address> Addresses => _addresses.ToArray();
+
+        public Customer(Name fullName, Document document, Email email, Phone phone)
         {
-            FullName = fullName;            
+            Id = new Random().Next();
+            FullName = fullName;
             Document = document;
             Email = email;
             Phone = phone;
             _addresses = new List<Address>();
         }
 
-        private readonly IList<Address> _addresses;
-
-        public int Id { get; private set; }
-        public Name FullName { get; set; }
-        public Document Document { get; private set; }
-        public string Email { get; private set; }
-        public string Phone { get; private set; }
-        public IReadOnlyCollection<Address> Addresses => _addresses.ToArray();
-
         public void AddAddress(Address address)
         {
-            // Valida Endereco
-            // Adiciona Endereco
+            // Validar Endereco
             _addresses.Add(address);
         }
 

@@ -1,0 +1,12 @@
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\bin\Debug\net7.0\MatStore.Domain.deps.json
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\bin\Debug\net7.0\MatStore.Domain.dll
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\bin\Debug\net7.0\MatStore.Domain.pdb
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\MatStore.Domain.csproj.AssemblyReference.cache
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\MatStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\MatStore.Domain.AssemblyInfoInputs.cache
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\MatStore.Domain.AssemblyInfo.cs
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\MatStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\MatStore.Domain.dll
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\refint\MatStore.Domain.dll
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\MatStore.Domain.pdb
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\ref\MatStore.Domain.dll
