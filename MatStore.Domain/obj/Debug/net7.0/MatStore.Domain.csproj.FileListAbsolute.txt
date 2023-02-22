@@ -10,3 +10,6 @@ C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso
 C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\refint\MatStore.Domain.dll
 C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\MatStore.Domain.pdb
 C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\ref\MatStore.Domain.dll
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\bin\Debug\net7.0\MatStore.Shared.dll
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\bin\Debug\net7.0\MatStore.Shared.pdb
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Domain\obj\Debug\net7.0\MatStore.Domain.csproj.CopyComplete

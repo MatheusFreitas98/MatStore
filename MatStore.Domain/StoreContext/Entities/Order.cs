@@ -25,7 +25,6 @@ namespace MatStore.Domain.StoreContext.Entities
 
         public void AddItem(OrderItem item)
         {
-            // Validar
             _items.Add(item);
         }
 

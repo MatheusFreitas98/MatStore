@@ -100,3 +100,6 @@ C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso
 C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Tests\obj\Debug\net7.0\MatStore.Tests.pdb
 C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Tests\obj\Debug\net7.0\MatStore.Tests.genruntimeconfig.cache
 C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Tests\obj\Debug\net7.0\ref\MatStore.Tests.dll
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Tests\bin\Debug\net7.0\FluentValidator.dll
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Tests\bin\Debug\net7.0\MatStore.Shared.dll
+C:\Users\mathe\OneDrive - Grupo Marista\Matheus\Estudos\Programação\.NET\Curso Balta\MatStore\MatStore.Tests\bin\Debug\net7.0\MatStore.Shared.pdb

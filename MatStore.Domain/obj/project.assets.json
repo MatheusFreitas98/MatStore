@@ -1295,6 +1295,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "MatStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MatStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MatStore.Shared.dll": {}
+        }
       }
     }
   },
@@ -4579,10 +4589,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "MatStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../MatStore.Shared/MatStore.Shared.csproj",
+      "msbuildProject": "../MatStore.Shared/MatStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "MatStore.Shared >= 1.0.0",
       "fluentvalidator >= 2.0.2"
     ]
   },
@@ -4612,7 +4628,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mathe\\OneDrive - Grupo Marista\\Matheus\\Estudos\\Programação\\.NET\\Curso Balta\\MatStore\\MatStore.Shared\\MatStore.Shared.csproj": {
+              "projectPath": "C:\\Users\\mathe\\OneDrive - Grupo Marista\\Matheus\\Estudos\\Programação\\.NET\\Curso Balta\\MatStore\\MatStore.Shared\\MatStore.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

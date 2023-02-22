@@ -1,6 +1,8 @@
+using FluentValidator;
+
 namespace MatStore.Domain.StoreContext.Entities
 {
-    public class OrderItem
+    public class OrderItem : Notifiable
     {
         public OrderItem(Product product, decimal quantity)
         {
@@ -9,12 +11,13 @@ namespace MatStore.Domain.StoreContext.Entities
             Price = Product.Price;
 
             if (product.QuantityOnHand < quantity)
-                throw new Exception("Quantidade inválida");
+                AddNotification("Quantity", "Produto fora de estoque");
         }
 
         public Product Product { get; private set; }
         public decimal Quantity { get; private set; }
         public decimal Price { get; private set; }
+        public IDictionary<string, string> Notifications { get; set; }
 
         public override string ToString()
         {

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FzQQsDjYDXevyM2eNx8WjHR+e0TN9QIS7AF610FDvanTXVdh61wwj0Ksq8CAByrMlZkkDhfNOaypG+xw4zbYIQ==",
+  "dgSpecHash": "D51Hwa1y8+OZBQ8M/TSeTQ8G8wLTWmFEPiBeaaNiHKmCSSvfS8E9Udo9vuK3qaWbuNKXBHAnWrLwagTj072KIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mathe\\OneDrive - Grupo Marista\\Matheus\\Estudos\\Programação\\.NET\\Curso Balta\\MatStore\\MatStore.Tests\\MatStore.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\mathe\\.nuget\\packages\\fluentvalidator\\2.0.2\\fluentvalidator.2.0.2.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.net.test.sdk\\17.3.2\\microsoft.net.test.sdk.17.3.2.nupkg.sha512",

@@ -8,6 +8,18 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "FluentValidator/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/17.3.2": {
         "type": "package",
         "compile": {
@@ -1905,11 +1917,25 @@
       "MatStore.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MatStore.Shared": "1.0.0",
+          "fluentvalidator": "2.0.2"
+        },
         "compile": {
           "bin/placeholder/MatStore.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/MatStore.Domain.dll": {}
+        }
+      },
+      "MatStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MatStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MatStore.Shared.dll": {}
         }
       }
     }
@@ -1964,6 +1990,18 @@
         "coverlet-icon.png",
         "coverlet.collector.3.1.2.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "FluentValidator/2.0.2": {
+      "sha512": "+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "type": "package",
+      "path": "fluentvalidator/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidator.2.0.2.nupkg.sha512",
+        "fluentvalidator.nuspec",
+        "lib/netstandard1.3/FluentValidator.dll"
       ]
     },
     "Microsoft.CodeCoverage/17.3.2": {
@@ -6776,6 +6814,11 @@
       "type": "project",
       "path": "../MatStore.Domain/MatStore.Domain.csproj",
       "msbuildProject": "../MatStore.Domain/MatStore.Domain.csproj"
+    },
+    "MatStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../MatStore.Shared/MatStore.Shared.csproj",
+      "msbuildProject": "../MatStore.Shared/MatStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

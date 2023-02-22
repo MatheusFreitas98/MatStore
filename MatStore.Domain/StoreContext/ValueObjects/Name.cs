@@ -23,8 +23,6 @@ namespace MatStore.Domain.StoreContext.ValueObjects
                 .HasMinLen(LastName, 3, "LastName", "O nome deve conter pelo menos 3 caracteres")
                 .HasMaxLen(LastName, 40, "LastName", "O nome deve conter no máximo 40 caracteres")
                 );
-
-
         }
 
         public string FirstName { get; private set; }

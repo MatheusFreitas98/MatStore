@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FluentValidator;
+using FluentValidator.Validation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MatStore.Domain.StoreContext.ValueObjects
 {
-    public class Document
+    public class Document : Notifiable
     {
         public string Number { get; set; }
 
@@ -14,9 +16,12 @@ namespace MatStore.Domain.StoreContext.ValueObjects
         public Document(string number)
         {
             Number = number;
+
+            AddNotifications(new ValidationContract()
+                .IsTrue(IsCpf(Number), "Document", "CPF inválido"));
         }
 
-        public static bool IsCpf(string cpf)
+        public bool IsCpf(string cpf)
         {
             int[] multiplicador1 = new int[9] { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
             int[] multiplicador2 = new int[10] { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };

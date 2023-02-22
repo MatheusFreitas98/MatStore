@@ -10,4 +10,8 @@
     <PackageReference Include="fluentvalidator" Version="2.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MatStore.Shared\MatStore.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

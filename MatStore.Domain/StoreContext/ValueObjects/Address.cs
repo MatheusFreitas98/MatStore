@@ -11,8 +11,8 @@ namespace MatStore.Domain.StoreContext.ValueObjects
     {
         public Address(string street, string number, string complement, string city, string state, string postalCode, string country, string zipcode, EAddressType addressType)
         {
-            Street= street;
-            Number= number;
+            Street = street;
+            Number = number;
             Complement = complement;
             City = city;
             State = state;

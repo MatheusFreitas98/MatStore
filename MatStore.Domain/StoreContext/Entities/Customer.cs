@@ -26,7 +26,6 @@ namespace MatStore.Domain.StoreContext.Entities
 
         public void AddAddress(Address address)
         {
-            // Validar Endereco
             _addresses.Add(address);
         }
 
