@@ -11,16 +11,25 @@ namespace MatStore.Tests.ValueObjects
     [TestClass]
     public class DocumentTests
     {
-        [TestMethod]
-        public void DeveRetornarNotificacaoQuandoNaoForValido()
+        private Document validDocument;
+        private Document invalidDocument;
+
+        public DocumentTests()
         {
-            Assert.Fail();
+            validDocument = new Document("28659170377");
+            invalidDocument = new Document("12345678910");
         }
 
         [TestMethod]
-        public void NaoDeveRetornarNotificacaoQuandoNaoForValido()
+        public void ShouldReturnFalseWhenDocumentIsNotValid()
         {
-            Assert.Fail();
+            Assert.IsFalse(invalidDocument.IsValid);
+        }
+
+        [TestMethod]
+        public void ShouldReturnTrueWhenDocumentIsValid()
+        {
+            Assert.IsTrue(validDocument.IsValid);
         }
     }
 }

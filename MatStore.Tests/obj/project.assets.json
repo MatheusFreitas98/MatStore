@@ -1931,6 +1931,9 @@
       "MatStore.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "fluentvalidator": "2.0.2"
+        },
         "compile": {
           "bin/placeholder/MatStore.Shared.dll": {}
         },
