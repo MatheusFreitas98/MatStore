@@ -12,13 +12,12 @@ namespace MatStore.Domain.StoreContext.ValueObjects
     {
         public string Address { get; set; }
 
-
         public Email(string address)
         {
             Address = address;
 
             AddNotifications(
-                new ValidationContract().Requires().IsEmail(Address, "Email", "O Email é inválido")
+                new ValidationContract().IsEmail(Address, "Email", "O Email é inválido")
                 );
         }
 
